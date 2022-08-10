@@ -7,7 +7,7 @@ Gem::Specification.new do |s|
   s.email         = ["yfxie@me.com"]
 
   s.summary       = %q{Use the pre-defined variants feature in Rails 6 projects.}
-  s.description   = %q{The pre-defined variants feature is introduced in Rails 7. Using this gem, take the feature in advance for projects using Rails 6.}
+  s.description   = %q{The pre-defined variants feature is introduced in Rails 7. Using this gem, take the feature in advance for projects using Rails 5.2.0 .}
   s.homepage      = "https://github.com/yfxie/active_storage_variant/"
   s.required_ruby_version = Gem::Requirement.new(">= 2.3.0")
 
@@ -22,8 +22,7 @@ Gem::Specification.new do |s|
   end
   s.require_paths = ["lib"]
 
-  s.add_dependency "rails", "~> 6.0"
-  s.add_development_dependency "sqlite3"
+  s.add_dependency "rails", "~> 5.2.0"
   s.add_development_dependency "pry"
   s.add_development_dependency "image_processing"
   s.add_development_dependency "appraisal"
